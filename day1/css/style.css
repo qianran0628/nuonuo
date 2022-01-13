@@ -1,0 +1,38 @@
+img{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.img1{
+    -webkit-filter: grayscale(1);
+    /* grayscale：设置灰度，1为100%，0为0% */
+}
+.img2{
+    -webkit-filter: brightness(1);
+    /* brightness：设置亮度，0为黑，1为正常亮度，2为曝光过度 */
+}
+.img3{
+    -webkit-filter: sepia(1);
+    /* sepia：设置褐色，0为正常颜色，1为100%褐色 */
+}
+.img4{
+    -webkit-filter:blur(5px);
+    /* blur：设置模糊度，0px为正常，px值越大越模糊 */
+}
+.img5{
+    -webkit-filter: contrast(1);
+    /* contrast：设置对比度，0为灰色，1为正常，值越高对比度越明显 */
+}
+.img6{
+    -webkit-filter: saturate(1);
+    /* saturate：设置饱和度，0为灰暗，1为正常，值越大饱和度越大 */
+}
+.img7{
+    -webkit-filter: invert(1);
+    /* invert：设置为反向，0为正常，1为颜色反向为胶片 */
+}
+.img8{
+    -webkit-filter: hue-rotate(0deg);
+    /* hue-rotate：设置色相旋转，0deg为正常，deg值越大色相越高，360deg重置 */
+}
